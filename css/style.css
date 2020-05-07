@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #706C61;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+#title {
+    margin: 3% auto;
+}
+
+.container-fluid{
+    padding: 3% 15% 6%;
+}
+
+.colored-section {
+    background-color: #effffb;
+}
+
+.light-section {
+    background-color: #fffdf9;
+    height: 200px;
+}
+
+.nav-item {
+    padding: 5px 15px;
+}
