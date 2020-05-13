@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ h3 {
 
 .section-heading {
     color: #4f98ca; 
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .container-fluid{
@@ -40,10 +40,6 @@ h3 {
     /* background-color: #dff0ea; */
     background-color: #dff4f3;
     /* background-color: #e1f5f2; */
-}
-
-.light-section {
-    background-color: #fffdf9;
 }
 
 .white-section {
@@ -62,9 +58,20 @@ h3 {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(112, 108, 97' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e")
 }
 
-
 .sample-image {
     padding: 0;
-    height: auto;
+}
+
+.sample-comment {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.comment-title {
+    font-size: 1.5rem;
+}
+
+.comment-detail {
+    font-size: 1rem;
 }
 
