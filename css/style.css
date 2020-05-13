@@ -26,9 +26,13 @@ h3 {
     margin: 3% auto;
 }
 
+#dev-progress {
+    padding-bottom: 4%;
+}
+
 .section-heading {
     color: #4f98ca; 
-    margin-top: 4%;
+    padding-top: 4%;
 }
 
 .container-fluid{
@@ -39,6 +43,7 @@ h3 {
 .colored-section {
     /* background-color: #dff0ea; */
     background-color: #dff4f3;
+    /* padding:4% 0; */
     /* background-color: #e1f5f2; */
 }
 
@@ -75,3 +80,20 @@ h3 {
     font-size: 1rem;
 }
 
+
+.progress-message {
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 4% 0px 3%;
+}
+
+.progress {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(99, 112, 116, 0.6);
+}
+
+.progress-bar {
+    background-color: #50d890;
+}
