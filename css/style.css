@@ -97,3 +97,16 @@ h3 {
 .progress-bar {
     background-color: #50d890;
 }
+
+.phase-col {
+    margin-bottom: 20px;
+}
+
+.current-card .card-header {
+    font-weight: 700;
+    background-color: #c8dad3;
+}
+
+.future-card .card-header {
+    background-color: #d4d7dd;
+}
