@@ -22,6 +22,10 @@ h3 {
     text-align: center;
 }
 
+a {
+    color: #706C61;
+}
+
 #title {
     margin: 3% auto;
 }
@@ -109,4 +113,68 @@ h3 {
 
 .future-card .card-header {
     background-color: #d4d7dd;
+}
+
+.contact-links {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .sample-comment {
+        text-align: center;
+        margin: 0;
+    }
+
+    .comment-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .sample-comment {
+        text-align: center;
+        margin: 0;
+    }
+
+    .progress-message {
+        font-size: 2.5rem;
+    }
 }

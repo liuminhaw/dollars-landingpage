@@ -6,11 +6,13 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   </head>
   <body>
 
@@ -34,7 +36,7 @@
                 <a class="nav-link" href="#phase">Phase</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -42,7 +44,7 @@
 
         <!-- title -->
         <div class="row">
-          <div id="title">
+          <div class="col-12" id="title">
             <h1>DOLLAR$</h1>
             <h2>As Simple<br>As Powerful</h2>
           </div>
@@ -53,30 +55,30 @@
     <section class="white-section">
         <h3 class="section-heading" id="samples">Samples</h3>
 
-        <div id="samples-carousel" class="carousel slide" data-ride="false">
+        <div id="samples-carousel" class="carousel slide" data-interval="false">
           <div class="carousel-inner">
-            <div class="carousel-item active container-fluid">
+            <div class="carousel-item active container-fluid" data-interval="false">
               <div class="sample-container row align-items-center justify-content-center">
                 <img class="sample-image col-sm-10 col-md-8 col-lg-7" src="images/Browser-Form.png" alt="Browser form sample">
-                <div class="sample-comment col-md-5 col-lg-3">
+                <div class="sample-comment col-md-5 col-lg-4">
                   <p class="comment-title">Desktop concept</p>
                   <p class="comment-detail">Overview with analytics</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item container-fluid">
+            <div class="carousel-item container-fluid" data-interval="false">
               <div class="sample-container row align-items-center justify-content-center">
                 <img class="sample-image col-sm-10 col-md-8 col-lg-7" src="images/Mobile-Form-1.png" alt="Mobile form sample">
-                <div class="sample-comment col-md-5 col-lg-3">
+                <div class="sample-comment col-md-5 col-lg-4">
                   <p class="comment-title">Mobile concept 1</p>
                   <p class="comment-detail">Overview screen</p>
                 </div>
               </div>
             </div>
-            <div class="carousel-item container-fluid">
+            <div class="carousel-item container-fluid" data-interval="false">
               <div class="sample-container row align-items-center justify-content-center">
                 <img class="sample-image col-sm-10 col-md-8 col-lg-7" src="images/Mobile-Form-2.png" alt="Mobile form sample">
-                <div class="sample-comment col-md-5 col-lg-3">
+                <div class="sample-comment col-md-5 col-lg-4">
                   <p class="comment-title">Mobile concept 2</p>
                   <p class="comment-detail">Analytic screen</p>
                 </div>
@@ -140,6 +142,16 @@
           </div>
         </div>
       </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="colored-section">
+      <div class="contact-links" id="contact">
+        <a href="https://github.com/liuminhaw/dollars-landingpage" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+      <div class="footer">
+        <p class="copyright">© 2020 Min-Haw, Liu.</p>
       </div>
     </section>
 
