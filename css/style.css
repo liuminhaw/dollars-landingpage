@@ -178,3 +178,23 @@ a {
         font-size: 2.5rem;
     }
 }
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .progress-message {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
